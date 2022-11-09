@@ -1,129 +1,112 @@
+/* ------------- APP ------------- */
 .container {
-  padding: 0 2rem;
+  font-family: "Courier New", Courier, monospace;
+  height: 100vh;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+    url("https://images.vexels.com/media/users/3/2852/raw/3dd7b1e582081ac1bcec2ae5332d3f5a-sunset-forest-illustration-design.jpg"),
+    no-repeat, center/cover;
 }
+.body {
+  padding-top: 50px;
+  border: 1px solid wheat;
+  width: 463px;
+  height: 600px;
+  border-radius: 20px;
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  margin-left: 550px;
+  background-color: white;
+  padding-left: 15px;
+  position: relative;
+  top: 50px;
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://scr.vn/wp-content/uploads/2020/07/Cute-Anime-Chibi-Coupe.jpg"),
+    no-repeat, center/cover;
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  margin-left: 70px;
+  color: yellow;
+}
+.title i {
+  color: rgb(234, 234, 28);
 }
 
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
+.body small {
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
   border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-weight: bold;
+
+  top: 178px;
+  left: 25px;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
+.head input {
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  width: 320px;
+  height: 45px;
+  padding-left: 30px;
+  border: none;
+  outline: none;
+  font-weight: bold;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.head button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  width: 100px;
+
+  margin-left: 10px;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.head button:hover {
+  background-color: #3e8e41;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.head button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.tt {
+  padding-top: 40px;
+  /* border: 1px solid #000; */
+  text-align: center;
+  color: white;
 }
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.tt h2 {
+  color: black;
+  border: 1px solid #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 200px;
+  margin-left: 120px;
+  background-color: rgb(216, 218, 219);
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  box-shadow: 5px 10px 20px rgb(41, 132, 223) inset;
 }
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+.icon {
+  color: white;
+  padding-top: 40px;
+  display: flex;
+  gap: 88px;
 }
